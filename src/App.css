@@ -1,0 +1,74 @@
+body,h1{
+  margin: 0;
+  padding: 0;
+}
+.home{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.upper-content{
+  width: 60%;
+  border: 1px solid;
+}
+.heading{
+  border-bottom: 2px solid;
+  padding: 5px;
+}
+.inputs{
+  width: 96.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid;
+}
+.drop{
+  /* width: 30%; */
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.drop select{
+  height: 4vh;
+}
+.drop input{
+  height: 3.4vh;
+}
+.table-div{
+  width: 92%;
+  border: 1px solid lightgray;
+  margin: 4%;
+
+}
+table{
+  width: 100%;
+}
+table .th-heading{
+  background-color: rgb(180, 179, 179);
+}
+table td{
+  text-align: center;
+}
+table tr:nth-child(odd){
+  background-color: rgb(219, 215, 215);
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
